@@ -1,7 +1,7 @@
 nama = "Kokowie"
 umur = 33
 tinggi = 175.5
-#(X) dimulai angka,tanda(-),keyword Pyhthon,spasi.
+#(X) dimulai angka,tanda(-),keyword Python,spasi.
 #hanya untuk menerima data tidak akan muncul
 very_small = 1e-6     #0.000001
 speed_of_light = 3e8  #3 x 10^8 = 300000000
