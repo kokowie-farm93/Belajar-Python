@@ -1,0 +1,1 @@
+print("halo ko, mulai lagi dari awal!")
