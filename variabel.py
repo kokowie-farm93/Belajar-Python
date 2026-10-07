@@ -4,10 +4,9 @@ high = 175.5
 
 very_small = 1e-6     #0.000001
 speed_of_light = 3e8  #3 x 10^8 = 300000000
-#Python Data Base:
-#int(numbers),float,str(text),bool(true/false)
+#Python Data Type: int(numbers), float, str(text), bool(true/false)
 
-print(type(name))
+print(type(name)) # check type
 print(type(age))
 print(type(high))
  
