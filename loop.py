@@ -23,4 +23,4 @@ print("Belajar While")
 angka = 1
 while angka <= 5:
     print("Belajar While Lulus", angka)
-    angka += 1
+    angka += 1 # wajib += 
