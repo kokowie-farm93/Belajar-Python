@@ -1,7 +1,7 @@
- #Tabel perkalian lengkap
-print("Tabel Perkalian")
+ #Complete Multiplication Table
+print("Multiplication Table")
 for i in range(1, 6):
     for j in range(1, 6):
-        hasil = i * j
-        print(i, "x", j, "=", hasil)
+        result = i * j
+        print(i, "x", j, "=", result)
     print("======")

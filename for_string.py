@@ -1,7 +1,7 @@
 name = "Python"
-for huruf in name:
-    print(huruf)
+for letter in name:
+    print(letter)
 
-word = input("Entry word: ")
-for karakter in word:
-    print("-", karakter)
+word = input("Enter a word: ")
+for character in word:
+    print("-", character)

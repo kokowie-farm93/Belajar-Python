@@ -1,10 +1,10 @@
-#Game Tebak angka dengan break
+#Number Guessing Game with break
 secret_number = 7
 
 while True:
-    guess = int(input("Guess number (1-10): "))
+    guess = int(input("Guess the number (1-10): "))
     if guess == secret_number:
-        print ("Congrats! Right Answer!")
+        print ("Congratulations! You got it!")
         break
     else:
-        print("False, try again!")
+        print("Wrong, try again!")

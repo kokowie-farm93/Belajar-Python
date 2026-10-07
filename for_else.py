@@ -1,10 +1,10 @@
-#Mencari huruf dalam kata
-kata = input("Masukkan kata: ")
-huruf_dicari = input("Masukkan huruf yang dicari: ")
+# Search for a letter in a word
+word = input("Enter a word: ")
+lettter_to_find = input("Enter letter to search: ")
 
-for huruf in kata:
-    if huruf == huruf_dicari:
-        print("Huruf", huruf_dicari, "ditemukan dalam kata!")
+for letter in word:
+    if letter == lettter_to_find:
+        print(f"Letter", {lettter_to_find}, "found in word!")
         break
 else:
-        print("Huruf", huruf_dicari, "tidak ditemukan")
+        print(f"Letter", {lettter_to_find}, "not found")

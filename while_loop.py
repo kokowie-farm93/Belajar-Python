@@ -1,12 +1,12 @@
-angka = 1
-while angka <= 5:
-    print(angka)
-    angka += 1 # artinya angka + !, wajib +=
+number = 1
+while number <= 5:
+    print(number)
+    number += 1 # is mean +1, must use +=
 
 password = ""
 
 while password != "12345":
     password = input("Entry password : ")
     if password != "12345":
-        print("Uncorrect Password")
+        print("Incorrect Password")
 print("Correct Password")

@@ -1,17 +1,17 @@
-# Cari password yang benar dengan batas percobaan
-password_benar = "python123"
-percobaan = 0
-max_percobaan = 3
+# Find Correct password with attempt limit
+correct_password = "python123"
+attempt = 0
+max_attempt = 3
 
-while percobaan < max_percobaan:
+while attempt < max_attempt:
     password = input("Enter password: ")
-    percobaan += 1
+    attempt += 1
 
-    if password == password_benar:
-        print("Login Berhasil")
+    if password == correct_password:
+        print("Login succesful!")
         break
     else:
-        print("Password Salah. Sisa percobaan:", max_percobaan - percobaan)
+        print("Incorrect Password. Attempt left:", max_attempt - attempt)
 
 else:
-    print("Terlalu banyak percobaan gagal. Akses ditolak")
+    print("Too many failed attempts. Access denied")

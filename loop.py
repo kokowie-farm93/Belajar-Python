@@ -1,26 +1,26 @@
-# Cetak angka 0 sampai 4
+# Print numbers 0 to 4
 for i in range(5):
     print(i)
 
-# Cetak "Hello" sebanyak 3 kali
+# Print "Hello" 3 Times
 for i in range(3):
     print("Hello")
 
-# Hitung Mundur
+# Countdown
 for i in range(5, 0, -1):
     print(i)
 
-#1 Belajar for Pakai f (lebih rapi)
+#Learn For Loop with f string (Cleaner version)
 for i in range(1, 6):
-    print(f"Belajar Pakai F-{1}")
+    print(f"Learn For Loop with F {1}")
 
-# Tanpa f (lebih mudah)
+# without f (Easy version)
 for i in range(1, 6):
-    print("Belajar Tanpa F", 1)
+    print("Learn For Loop without F", 1)
 
-# Belajar While
-print("Belajar While")
-angka = 1
-while angka <= 5:
-    print("Belajar While Lulus", angka)
-    angka += 1 # wajib += 
+# Learn While
+print("Learn While")
+number = 1
+while number <= 5:
+    print("Learn While Succesful", number)
+    number += 1 # Must use ' += ' 
