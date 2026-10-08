@@ -9,4 +9,4 @@ fruits.append("banana")
 print(fruits)
 
 # how many items?
-print(f"Total fruits : {len(fruits)}"font 
+print(f"Total fruits : {len(fruits)}") 
