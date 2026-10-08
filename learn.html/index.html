@@ -4,11 +4,12 @@
         <meta charset="UTF-8">
         <title> Welcome to Kokowie Farm </title>
         <style>
-            body { font-family:Arial, Helvetica, sans-serif; margin: 0; background-color: blue; color:greenyellow}
+            body { font-family:Arial, Helvetica, sans-serif; margin: 0; background-color: white; color:black}
             header { background-color: green; color: white; padding: 20px; text-align: center; }
-            nav { background-color: black; padding: 10px; text-align: center; }
-            nav a { color: gray; margin: 0; padding:15px; font-weight: bold; }
-            footer { background-color: yellow; color:silver; text-align: center; padding: 15px; margin-top: 30px;}
+            nav { background-color: #1b5e20; padding: 12px; text-align: center; }
+            nav a { color: whitesmoke; margin: 15px; font-weight: bold; }
+            footer { background-color: yellow; color:grey; text-align: center; padding: 15px; margin-top: 40px;}
+            section { padding: 30px 20px; margin-bottom: 20px;}
         </style>
     </head>
     <body>
@@ -24,12 +25,20 @@
 
     <div class="container">
     <div class="hero">
+        <section id="about">
         <h2>About Our Farm</h2>
         <p> We grow <b>organic vegetables </b> with <i> love and technology </i>.<br>
-        Oue mission is to provide <mark>healthy food</mark> for everyone. </p>
-    </div>
+        Our mission is to provide <mark>healthy food</mark> for everyone. </p>
+        </section></div>
     <hr>
-    <h2 id="products">Our Products</h2>
+    <section id="products">
+        <h3> Our Products : </h3>
+    <p> Spinach, Tomatoes, Lettuce</p> </section><hr>
+
+    <section id="contact">
+        <h2>Contact Us :</h2>
+        <p>WA :<a href="https://wa.me/6285763..."> Chat WA Kokowie Farm </a> </p>
+    </section> </div> <hr>
     <ul>
         <li>Organic Lettuce</li>
         <li>Fresh Tomatoes</li>
@@ -40,6 +49,36 @@
     <li> Contact us</li>
     <li> We deliver</li>
     </ol>
-    
+    <h2 style="text-align: center;">Price Tag</h2>
+    <table border="1" cellpadding="10" width="100%">
+        <tr>
+      <th style="background-color: yellowgreen;">Product</th>
+        <th style="background-color: orangered;">Price</th>
+        </tr>
+       <tr>
+       <td> Lettuce </td>
+       <td style="color: black;"> 5$/kg</td> <tr/>
+       <tr>
+       <td>Tomato</td>
+       <td style="color: black;"> 7$/kg</td> </tr></table>
+    <h3 style="padding-left: 8px;">Contact Us :</h3>
+     <form>
+        <label style="padding-left: 10px;"> Name </label><br>
+        <input type="text" placeholder="Your name" style="width: 100%; padding: 8px;"> <br><br>
+        <label style="padding-left: 10px;"> Message </label> <br>
+        <textarea rows="4" style="width: 100%; placeholder="I want to order ..."></textarea> <br><br>
+
+        <label><h4 style="padding-left: 10px;">City : </h4></label>
+        <select style="padding: 8px;">
+        <option>Medan  </option>  <br>
+        <option>Jakarta</option>  <br>
+        <option>Other  </option>  <br>
+        </select> <br><br>
+
+        <button class="button" type="submit">Send Message</button>
+     </form>  
+      <footer>
+        <p>&copy;2026 Kokowie Farm. Built with basic HTML 5 </p>
+      </footer>
     </body>
     <html/>
