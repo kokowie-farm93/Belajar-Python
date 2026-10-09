@@ -17,3 +17,7 @@ name = ["orange", "strawberry", "kiwi"]
 print(name)
 name[1] = "grape"
 print(name) # ['orange', 'grape', 'kiwi']
+
+# remove an item
+name.remove("orange")
+print(name)
