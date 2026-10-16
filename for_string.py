@@ -4,4 +4,8 @@ for letter in name:
 
 word = input("Enter a word: ")
 for character in word:
-    print("-", character)
+    print("-", )
+
+name = "Programmer Python"
+for letter in name:
+    print(letter)

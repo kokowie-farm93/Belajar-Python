@@ -16,7 +16,7 @@ for i in range(1, 6):
 
 # without f (Easy version)
 for i in range(1, 6):
-    print("Learn For Loop without F", 1)
+    print("Learn For Loop without F {1}")
 
 # Learn While
 print("Learn While")

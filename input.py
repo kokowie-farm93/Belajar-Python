@@ -1,3 +1,6 @@
 name = input("Name : ")
 address = input("Address: ")
 born = input("Place and date of birth: ")
+print("Name:", name)
+print("Address:", address)
+print("Place and date of birth:", born)

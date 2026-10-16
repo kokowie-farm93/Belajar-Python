@@ -13,6 +13,8 @@ def nick_name(name):
     print("Nice to meet you")
 nick_name("Kokowie")
 nick_name("Regine")
+nick_name("David")
+nick_name("A0")
 
 def count_multiplication(a, b):
     result = a * b

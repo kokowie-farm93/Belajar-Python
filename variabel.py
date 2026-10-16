@@ -6,6 +6,11 @@ very_small = 1e-6     #0.000001
 speed_of_light = 3e8  #3 x 10^8 = 300000000
 #Python Data Type: int(numbers), float, str(text), bool(true/false)
 
+print(name)
+print(age)
+print(high)
+print(very_small)
+print(speed_of_light)
 print(type(name)) # check type
 print(type(age))
 print(type(high))
