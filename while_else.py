@@ -12,6 +12,5 @@ while attempt < max_attempt:
         break
     else:
         print("Incorrect Password. Attempt left:", max_attempt - attempt)
-
 else:
     print("Too many failed attempts. Access denied")

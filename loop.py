@@ -1,3 +1,6 @@
+# Looping in Python
+
+# for range() function is used to generate a sequence of numbers. It can take one or more arguments.
 # Print numbers 0 to 4
 for i in range(5):
     print(i)
@@ -9,6 +12,9 @@ for i in range(3):
 # Countdown
 for i in range(5, 0, -1):
     print(i)
+for i in range(10, 0, -2):
+    print(i)
+print("--------------------------------")
 
 #Learn For Loop with f string (Cleaner version)
 for i in range(1, 6):
@@ -17,6 +23,7 @@ for i in range(1, 6):
 # without f (Easy version)
 for i in range(1, 6):
     print("Learn For Loop without F {1}")
+print("--------------------------------")
 
 # Learn While
 print("Learn While")

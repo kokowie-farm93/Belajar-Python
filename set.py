@@ -1,4 +1,4 @@
-# SET is unordered = no fixed order, no index, unique
+# SET is unordered = no fixed order, no index, unique values, no duplicates
 
 fruits = {"pineapple", "apple", "avocado"}
 print(fruits)

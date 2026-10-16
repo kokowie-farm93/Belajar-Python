@@ -1,7 +1,7 @@
 number = 1
 while number <= 5:
     print(number)
-    number += 1 # is mean +1, must use +=
+    number += 1 # Must use " += " else it will be an infinite loop
 
 password = ""
 
